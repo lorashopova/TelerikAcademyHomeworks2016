@@ -1,4 +1,4 @@
-[Telerik Academy Homeworks 2016](https://github.com/lorashopova/TelerikAcademyHomeworks2016)
+**Telerik Academy Homeworks 2016**
  
 [HTML Homeworks](https://github.com/lorashopova/TelerikAcademyHomeworks2016/tree/master/HTMLHomeworks)
   * [HTML Fundamentals](https://github.com/lorashopova/TelerikAcademyHomeworks2016/tree/master/HTMLHomeworks/HTMLFundamentals)
