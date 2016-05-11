@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 455px;
+    height: 130px;
+}
+
+thead, tbody {
+    border-bottom: 1px solid #D9D8C9;
+}
+
+th {
+    border-left: 1px solid #49A10F;
+}
+
+td {
+    border-left: 1px solid #D9D8C9;
+}
+
+th {
+    color: #fff;
+    font-weight: normal;
+    background: #5cc006;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #5cc006 0%, #56b906 50%, #4eb106 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #5cc006 0%, #56b906 50%, #4eb106 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #5cc006 0%, #56b906 50%, #4eb106 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#5cc006', endColorstr='#4eb106', GradientType=0);
+    /* IE6-9 */
+    padding: 4px;
+    text-align: left;
+}
+
+td {
+    padding: 4px;
+}
+
+tr:nth-child(2n) {
+    background-color: #ECECD8;
+}
+
+tr:nth-child(1) td:nth-child(3), tr:nth-child(2) td:nth-child(3), tr:nth-child(3) td:nth-child(3), tr:nth-child(4) td:nth-child(3) {
+    vertical-align: middle;
+}
+
+tr:nth-child(1) td:nth-child(3):before {
+    background: url("images/GermanFlag.png") no-repeat;
+    background-size: 22px 16px;
+    display: inline-block;
+    width: 22px;
+    height: 16px;
+    content: "";
+    padding-right: 5px;
+    vertical-align: bottom;
+}
+
+tr:nth-child(2) td:nth-child(3):before {
+    background: url("images/MexicoFlag.jpg") no-repeat;
+    background-size: 22px 16px;
+    display: inline-block;
+    width: 22px;
+    height: 16px;
+    content: "";
+    padding-right: 5px;
+    vertical-align: bottom;
+}
+
+tr:nth-child(3) td:nth-child(3):before {
+    background: url("images/MexicoFlag.jpg") no-repeat;
+    background-size: 22px 16px;
+    display: inline-block;
+    width: 22px;
+    height: 16px;
+    content: "";
+    padding-right: 5px;
+    vertical-align: bottom;
+}
+
+tr:nth-child(4) td:nth-child(3):before {
+    background: url("images/UKFlag.png") no-repeat;
+    background-size: 22px 16px;
+    display: inline-block;
+    width: 22px;
+    height: 16px;
+    content: "";
+    padding-right: 5px;
+    vertical-align: bottom;
+}
+
+input[type="checkbox"] {
+    width: 12px;	
+    height: 12px;	
+    background-color: #FFFFFF;
+    box-shadow: -1.5px -1.5px 1px 0px #626262;
+    margin-left: 15px;
+}
