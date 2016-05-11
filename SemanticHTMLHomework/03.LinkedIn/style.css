@@ -1,0 +1,21 @@
+body{
+    border: 2px solid #000;
+    padding: 10px 5px;
+}
+
+header{
+    border-bottom: 1px solid #000;
+}
+
+header h1{
+    margin-top: 10px;
+}
+
+ul ul{
+    list-style-type: circle;
+}
+
+section form fieldset ul li:last-of-type{
+    list-style-type: none;
+    padding-top: 10px;
+}
