@@ -1,0 +1,21 @@
+﻿table, tr, td{
+    border: 1px solid #000;
+}
+
+.right{
+    text-align: right;
+    padding-right: 4px;
+    padding-left: 11px;
+}
+
+.left{
+    text-align: left;
+}
+
+.center{
+    text-align:center;
+}
+
+.bottom{
+    vertical-align: bottom;
+}
