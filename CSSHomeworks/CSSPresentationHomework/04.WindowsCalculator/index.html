@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Windows Calculator</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="header">
+            <span id="calculator">Calculator</span>
+            <span id="header-buttons"></span>
+        </div>
+        <div id="table">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#">View</a>
+                        <ul class="sub">
+                            <li><a href="#">Standart</a></li>
+                            <li><a href="#">Scientific</a></li>
+                            <li><a href="#">Programmer</a></li>
+                            <li class="bottom-line"><a href="#">Statistics</a></li>
+                            <li><a href="#">History</a></li>
+                            <li class="bottom-line"><a href="#">Digit grouping</a></li>
+                            <li><a href="#">Basic</a></li>
+                            <li><a href="#">Unic conversion</a></li>
+                            <li><a href="#">Date calculation</a></li>
+                            <li>
+                                <a href="#">Worksheets</a>
+                                <ul class="sub-sub">
+                                    <li><a href="#">Mortgage</a></li>
+                                    <li><a href="#">Vehicle lease</a></li>
+                                    <li><a href="#">Fuel economy(mpg)</a></li>
+                                    <li><a href="#">Fuel economy(L/100km)</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">Edit</a>
+                        <ul class="sub">
+                            <li><a href="#">Copy<span>Ctrl+C</span></a></li>
+                            <li><a href="#">Paste<span>Ctrl+V</span></a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">Help</a>
+                        <ul class="sub">
+                            <li class="bottom-line"><a href="#">View Help<span>F1</span></a></li>
+                            <li><a href="#">About Calculator</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <div id="main-content">
+                <input type="text" value="8854455" name="display">
+                <table id="display-binary">
+                    <tbody>
+                        <tr>
+                        <td>0000</td>
+                        <td>0000</td>
+                        <td>0000</td>
+                        <td>0000</td>
+                        <td>0000</td>
+                        <td>0000</td>
+                        <td>0000</td>
+                        <td>0000</td>
+                    </tr>
+                    <tr>
+                        <td>63</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>47</td>
+                        <td></td>
+                        <td></td>
+                        <td class="right">32</td>
+                    </tr>
+                    <tr>
+                        <td>0000</td>
+                        <td>0000</td>
+                        <td>1000</td>
+                        <td>0111</td>
+                        <td>0001</td>
+                        <td>1011</td>
+                        <td>1011</td>
+                        <td>0111</td>
+                    </tr>
+                    <tr>
+                        <td>31</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>15</td>
+                        <td></td>
+                        <td></td>
+                        <td class="right">0</td>
+                    </tr>
+                    </tbody>         
+                </table>
+                <form action="#" method="GET" name="buttons">
+                    <table id="buttons">
+                        <tbody>
+                            <tr>
+                            <td rowspan="3" class="radio">
+                                <div>
+                                    <input type="radio" name="bin" id="hex">
+                                    <label for="hex">Hex</label>
+                                </div>
+                                <div>
+                                    <input type="radio" name="bin" id="dec" checked>
+                                    <label for="dec">Dec</label>
+                                </div>
+                                <div>
+                                    <input type="radio" name="bin" id="oct">
+                                    <label for="oct">Oct</label>
+                                </div>
+
+                                <div>
+                                    <input type="radio" name="bin" id="bin">
+                                    <label for="bin">Bin</label>
+                                </div>
+
+                            </td>
+                            <td><button></button></td>
+                            <td><button class="active">Mod</button></td>
+                            <td><button>A</button></td>
+                            <td><button>MC</button></td>
+                            <td><button>MR</button></td>
+                            <td><button>MS</button></td>
+                            <td><button>M+</button></td>
+                            <td><button>M-</button></td>
+                        </tr>
+                        <tr>
+                            <td><button class="active">(</button></td>
+                            <td><button class="active">)</button></td>
+                            <td><button>B</button></td>
+                            <td><button class="active">&larr;</button></td>
+                            <td><button class="active">CE</button></td>
+                            <td><button class="active">c</button></td>
+                            <td><button class="active">&plusmn;</button></td>
+                            <td><button>&#x221a;</button></td>
+                        </tr>
+                        <tr>
+                            <td><button class="active">RoL</button></td>
+                            <td><button class="active">RoR</button></td>
+                            <td><button>C</button></td>
+                            <td><button class="active-number">7</button></td>
+                            <td><button class="active-number">8</button></td>
+                            <td><button class="active-number">9</button></td>
+                            <td><button class="active">/</button></td>
+                            <td><button>%</button></td>
+                        </tr>
+                        <tr>
+                            <td rowspan="3" class="radio">
+                                <div>
+                                    <input type="radio" name="byte" id="qword" checked>
+                                    <label for="qword">Qword</label>
+                                </div>
+                                <div>
+                                    <input type="radio" name="byte" id="dword">
+                                    <label for="dword">Dword</label>
+                                </div>
+                                <div>
+                                    <input type="radio" name="byte" id="word">
+                                    <label for="word">Word</label>
+                                </div>
+                                <div>
+                                    <input type="radio" name="byte" id="byte">
+                                    <label for="byte">Byte</label>
+                                </div>
+                            </td>
+                            <td><button class="active">Or</button></td>
+                            <td><button class="active">Xor</button></td>
+                            <td><button>D</button></td>
+                            <td><button class="active-number">4</button></td>
+                            <td><button class="active-number">5</button></td>
+                            <td><button class="active-number">6</button></td>
+                            <td><button class="active">*</button></td>
+                            <td><button>1/x</button></td>
+                        </tr>
+                        <tr>
+                            <td><button class="active">Lsh</button></td>
+                            <td><button class="active">Rsh</button></td>
+                            <td><button>E</button></td>
+                            <td><button class="active-number">1</button></td>
+                            <td><button class="active-number">2</button></td>
+                            <td><button class="active-number">3</button></td>
+                            <td><button class="active">-</button></td>
+                            <td rowspan="2"><button class="active span-equal">=</button></td>
+                        </tr>
+                        <tr>
+                            <td><button class="active">Not</button></td>
+                            <td><button class="active">And</button></td>
+                            <td><button>F</button></td>
+                            <td colspan="2"><button class="active-number span-zero">0</button></td>
+                            <td><button>.</button></td>
+                            <td><button class="active">+</button></td>
+                        </tr>
+                        </tbody>                       
+                    </table>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
