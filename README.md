@@ -9,4 +9,5 @@
   
 [CSS Homeworks](https://github.com/lorashopova/TelerikAcademyHomeworks2016/tree/master/CSSHomeworks)
   * [CSS Overview](https://github.com/lorashopova/TelerikAcademyHomeworks2016/tree/master/CSSHomeworks/CSSOverviewHomework)
+  * [CSS Presentation](https://github.com/lorashopova/TelerikAcademyHomeworks2016/tree/master/CSSHomeworks/CSSPresentationHomework)
 
