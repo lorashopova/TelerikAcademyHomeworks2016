@@ -1,0 +1,188 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#wrapper {
+  background-color: #f1f1f1;
+  border: 2px solid gray;
+  margin: 3px;
+  padding: 2px;
+  display: flex;
+  height: 650px;
+  width: 900px;
+  font-family: Calibri, 'Trebuchet MS', sans-serif;
+}
+#wrapper nav {
+  width: 140px;
+  height: 570px;
+  line-height: 15px;
+}
+#wrapper nav h2 {
+  padding-top: 10px;
+}
+#wrapper nav h2 a {
+  text-decoration: none;
+  color: #000;
+  font-size: 14px;
+}
+#wrapper nav h2 a:before {
+  background: url(images/home.png) no-repeat;
+  width: 25px;
+  height: 25px;
+  background-size: 25px 25px;
+  display: inline-block;
+  content: "";
+  padding-right: 5px;
+  vertical-align: bottom;
+}
+#wrapper nav ul {
+  list-style-type: none;
+  margin-top: 10px;
+}
+#wrapper nav ul li a {
+  text-decoration: none;
+  color: #000;
+}
+#wrapper nav ul li strong {
+  color: #a74240;
+}
+#wrapper section {
+  width: 500px;
+  height: 580px;
+  border: 1px solid gray;
+  background-color: #fff;
+  padding: 20px 5px;
+  font-size: 14px;
+}
+#wrapper section header {
+  border-bottom: 2px solid gray;
+}
+#wrapper section header h1 {
+  font-size: 24px;
+}
+#wrapper section header button {
+  width: 100px;
+  height: 20px;
+  background-color: #fff;
+  border: 2px solid gray;
+  margin: 10px 0;
+}
+#wrapper section header button span.prev,
+#wrapper section header button span.next {
+  font-size: 12px;
+  font-weight: bold;
+}
+#wrapper section header button span.prev {
+  position: relative;
+  left: -20px;
+}
+#wrapper section header button span.next {
+  position: relative;
+  right: -30px;
+}
+#wrapper section article {
+  padding: 10px 0;
+}
+#wrapper section article:first-of-type p {
+  font-weight: bold;
+}
+#wrapper section article h3 {
+  background-color: #808080;
+  color: #fff;
+  font-size: 15px;
+  font-weight: normal;
+  padding: 0 5px;
+}
+#wrapper section article a {
+  color: #a74240;
+}
+#wrapper section article img {
+  float: left;
+  margin: 15px;
+}
+#wrapper section article p {
+  margin: 10px 5px;
+}
+#wrapper section footer {
+  border-bottom: 2px solid gray;
+  border-top: 2px solid gray;
+}
+#wrapper section footer button {
+  width: 100px;
+  height: 20px;
+  background-color: #fff;
+  border: 2px solid gray;
+  margin: 10px 0;
+}
+#wrapper section footer button span.prev,
+#wrapper section footer button span.next {
+  font-size: 12px;
+  font-weight: bold;
+}
+#wrapper section footer button span.prev {
+  position: relative;
+  left: -20px;
+}
+#wrapper section footer button span.next {
+  position: relative;
+  right: -30px;
+}
+#wrapper aside {
+  width: 150px;
+  height: 550px;
+}
+#wrapper aside div {
+  border: 1px solid #808080;
+  margin: 2px;
+  padding: 3px 0;
+  text-align: center;
+  font-size: 14px;
+  background-color: #fff;
+}
+#wrapper aside div h3 {
+  background-color: #808080;
+  color: #fff;
+  font-size: 15px;
+  font-weight: normal;
+  text-align: center;
+}
+#wrapper aside div a {
+  color: #a74240;
+}
+#wrapper aside div input {
+  height: 15px;
+  width: 95px;
+  margin: 5px;
+}
+#wrapper aside div button {
+  width: 20px;
+  height: 20px;
+  font-weight: bold;
+  background-color: #F5F5F1;
+  border: 1px solid #808080;
+  border-radius: 5px;
+  padding: 2px;
+  margin: 5px;
+}
+#wrapper aside div #styles-button {
+  width: 100px;
+  height: 30px;
+  color: #67D6FE;
+  border: 1px solid #808080;
+  border-radius: 2px;
+  border-color: #93acc3;
+  background: #95d6f7;
+  /* Old browsers */
+  background: -moz-linear-gradient(left, #95d6f7 0%, #d4f0fe 15%, #d4f0fe 85%, #95d6f7 99%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%, #95d6f7), color-stop(15%, #d4f0fe), color-stop(85%, #d4f0fe), color-stop(99%, #95d6f7));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(left, #95d6f7 0%, #d4f0fe 15%, #d4f0fe 85%, #95d6f7 99%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(left, #95d6f7 0%, #d4f0fe 15%, #d4f0fe 85%, #95d6f7 99%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(left, #95d6f7 0%, #d4f0fe 15%, #d4f0fe 85%, #95d6f7 99%);
+  /* IE10+ */
+  background: linear-gradient(to right, #95d6f7 0%, #d4f0fe 15%, #d4f0fe 85%, #95d6f7 99%);
+  /* W3C */
+}

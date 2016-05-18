@@ -1,0 +1,32 @@
+#wrapper {
+    margin: 0 auto;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+ul ul {
+    display: none;
+}
+
+ul li:hover ul {
+    display: block;
+    position: relative;
+    left: -30px;
+}
+
+div>ul>li:hover a {
+    text-decoration: underline;
+}
+
+ul li:hover ul li a {
+    color: darkgray;
+    text-decoration: none;
+}

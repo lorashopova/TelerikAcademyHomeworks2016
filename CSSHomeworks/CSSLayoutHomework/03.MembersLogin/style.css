@@ -1,0 +1,83 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+#wrapper {
+  width: 660px;
+  height: 300px;
+  color: #939393;
+  background-color: #3b3b3b;
+  font-family: Georgia, Georgia, 'Times New Roman', Times, serif;
+  border-radius: 5px;
+}
+#wrapper #header {
+  padding: 5px;
+  background: #38393a;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #38393a 0%, #3a3a3a 12%, #3b3b3b 25%, #3a3a3a 39%, #393939 51%, #313131 63%, #323232 80%, #1c1c1c 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #38393a 0%, #3a3a3a 12%, #3b3b3b 25%, #3a3a3a 39%, #393939 51%, #313131 63%, #323232 80%, #1c1c1c 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #38393a 0%, #3a3a3a 12%, #3b3b3b 25%, #3a3a3a 39%, #393939 51%, #313131 63%, #323232 80%, #1c1c1c 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#38393a', endColorstr='#1c1c1c', GradientType=0);
+  /* IE6-9 */
+}
+#wrapper #header h1 {
+  color: #fff;
+  font-size: 20px;
+  display: inline-block;
+}
+#wrapper #header h1:before {
+  background: url("images/computer.png") no-repeat;
+  background-size: 45px 50px;
+  display: inline-block;
+  width: 45px;
+  height: 50px;
+  content: "";
+  padding-right: 15px;
+  vertical-align: middle;
+}
+#wrapper #header input[type=text] {
+  width: 140px;
+  height: 20px;
+  padding-left: 10px;
+  margin-right: 20px;
+}
+#wrapper #header input[name=name] {
+  margin-left: 15px;
+}
+#wrapper #header button {
+  background: url(images/red-button.png) no-repeat;
+  background-position: right;
+  background-size: cover;
+  color: #fff;
+  width: 50px;
+  height: 30px;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  font-family: 'Codystar', cursive;
+  font-weight: bold;
+  display: inline-block;
+  padding: 0;
+}
+#wrapper #main-content {
+  padding: 10px;
+}
+#wrapper #main-content h2 {
+  color: #F2D113;
+  margin: 20px 0;
+  font-weight: normal;
+  font-size: 28px;
+}
+#wrapper #main-content p {
+  font-size: 12px;
+  line-height: 1.9;
+}
+#wrapper #main-content p a {
+  text-decoration: none;
+  color: inherit;
+}
+#wrapper #main-content p span {
+  color: #fff;
+}

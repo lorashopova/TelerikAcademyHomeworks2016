@@ -1,0 +1,78 @@
+#wrapper {
+    background-color: #1e3741;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 80%;
+    border-radius: 10px;
+    nav {
+        ul {
+            list-style-type: none;
+            display: -webkit-box;
+            display: -moz-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            li {
+                width: 150px;
+                height: 35px;
+                margin: 2px;
+                background-color: #4b5f67;
+                padding: 6px;
+                text-align: center;
+                a {
+                    color: #97a09d;
+                    text-decoration: none;
+                    font-size: 18px;
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+                &:first-child {
+                    background-color: #1e3741;
+                    a {
+                        color: #fff;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+    section {
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        #news {
+            width: 500px;          
+            h1 {
+                background-color: #00968c;
+                padding: 10px;
+                margin-top: 0;
+                a {
+                    text-decoration: none;
+                    color: #fff;
+                    font-weight: normal;
+                    font-size: 20px;
+                }
+            }
+            article {
+                border-bottom: 1px solid #97a09d;
+                padding: 10px;
+                &:last-of-type {
+                    border-bottom: none;
+                }
+                a {
+                    text-decoration: none;
+                    color: #97a09d;
+                }
+            }
+        }
+    }
+    #frame {
+        width: 750px;
+        iframe, img{
+            width: 630px;
+            height: 470px;
+        }
+    }
+}

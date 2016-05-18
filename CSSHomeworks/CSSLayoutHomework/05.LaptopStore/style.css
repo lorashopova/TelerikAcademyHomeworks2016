@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.clearfloat {
+  clear: both;
+}
+#wrapper {
+  font-family: Constantia, 'Times New Roman', Times, serif;
+  border: 1px solid #000;
+  border-radius: 10px;
+  width: 1040px;
+  height: 740px;
+  padding: 15px;
+}
+#wrapper header {
+  padding-bottom: 15px;
+}
+#wrapper header ul {
+  list-style-type: none;
+  text-align: center;
+  border-bottom: 1px solid #000;
+}
+#wrapper header ul li {
+  display: inline-block;
+}
+#wrapper header ul li a {
+  color: #00ACEF;
+  font-size: 37px;
+}
+#wrapper section {
+  border: 1px solid #000;
+  width: 690px;
+  height: 680px;
+  float: left;
+}
+#wrapper section div {
+  float: left;
+  margin: 5px;
+}
+#wrapper section div fieldset {
+  width: 330px;
+  height: 208px;
+}
+#wrapper section div fieldset legend {
+  text-align: center;
+  font-size: 25px;
+}
+#wrapper section div fieldset img {
+  width: 170px;
+  height: 115px;
+  float: left;
+  margin-right: 10px;
+}
+#wrapper section div fieldset span {
+  margin-top: 25px;
+  font-size: 25px;
+}
+#wrapper section div fieldset span:last-child span {
+  margin-left: 40px;
+}
+#wrapper section div fieldset > span {
+  display: block;
+}
+#wrapper aside {
+  padding: 100px 20px 70px 20px;
+  float: left;
+}
+#wrapper aside div {
+  margin-bottom: 52px;
+  font-size: 30px;
+}
+#wrapper aside div input {
+  display: block;
+  margin-top: 20px;
+  width: 285px;
+}
