@@ -4,7 +4,7 @@ function solve(args) {
 
 	var radius = 2;
 	var distance = Math.sqrt((x * x) + (y * y)).toFixed(2);
-	if (distance <= (radius * radius)) {
+	if (distance <= radius) {
 		return 'yes ' + distance;
 	} else {
 		return 'no ' + distance;
