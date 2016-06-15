@@ -1,0 +1,124 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+    <meta charset="utf-8" />
+    <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+    <form method="post" name="registration">
+        <table>
+            <tr>
+                <td>
+                    <label for="last-name">Last Name</label>
+                </td>
+                <td>
+                    <input type="text" id="last-name" placeholder="Enter your last name" required="required" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="first-name">First Name</label>
+                </td>
+                <td>
+                    <input type="text" id="first-name" placeholder="Enter your first name" required="required" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="address">Address</label>
+                </td>
+                <td>
+                    <textarea id="address" rows="4" required="required" placeholder="Enter your address"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="city">City</label>
+                </td>
+                <td id="td">
+                    <input type="text" id="city" required="required" placeholder="Enter your sity"/>
+                    <label for="state">State</label>
+                    <input type="text" id="state" required="required" placeholder="Code"/>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="zip-code">Zip/Postal Code</label>
+                </td>
+                <td><input type="text" id="zip-code" required="required" placeholder="Zip Code"/></td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="select-country">Country</label>
+                </td>
+                <td>
+                    <select id="select-country">
+                        <option disabled selected value>Select country</option>
+                        <option value="Bulgaria">Bulgaria</option>
+                        <option value="Gernany">Germany</option>
+                        <option value="Great Britain">Great Britain</option>
+                        <option value="Russia">Russia</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Phone(country code, area code, number)</td>
+                <td>
+                    ( +<input type="tel" placeholder="359" /> )
+                    <input type="tel"  placeholder="888"/>
+                    -
+                    <input type="tel"  placeholder="88-88-88"/>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="email">E-mail</label>
+                </td>
+                <td><input type="email" id="email" placeholder="sample@email.com" required="required" /></td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="birthdate">Birth Date</label>
+                </td>
+                <td><input type="date" id="birthdate" required="required" /></td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="select-gender">Gender</label>
+                </td>
+                <td>
+                    <select id="select-gender">
+                        <option disabled selected value>Select your gender</option>
+                        <option value="m">Male</option>
+                        <option value="f">Female</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Starting Date</td>
+                <td>
+                    <input type="radio" id="spring" name="starting-date" checked />
+                    <label for="spring">Spring 2015</label>
+                    <input type="radio" id="summer" name="starting-date" />
+                    <label for="summer">Summer 2015</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="comments">Comments/Questions</label>
+                </td>
+                <td>
+                    <textarea id="comments" rows="4" placeholder="Comments"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" id="buttons">
+                    <input type="submit" value="Submit" />
+                    <input type="reset" value="Clear This Form" />
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
