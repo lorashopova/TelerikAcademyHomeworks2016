@@ -11,6 +11,8 @@
   * [CSS Overview](https://github.com/lorashopova/TelerikAcademyHomeworks2016/tree/master/CSSHomeworks/CSSOverviewHomework)
   * [CSS Presentation](https://github.com/lorashopova/TelerikAcademyHomeworks2016/tree/master/CSSHomeworks/CSSPresentationHomework)
   * [CSS Layout](https://github.com/lorashopova/TelerikAcademyHomeworks2016/tree/master/CSSHomeworks/CSSLayoutHomework)
+  
 
 [JavaScript Fundamentals](https://github.com/lorashopova/TelerikAcademyHomeworks2016/tree/master/JavaScriptFundamentalsHomeworks)
-   *[Operators and Expressions](https://github.com/lorashopova/TelerikAcademyHomeworks2016/tree/master/JavaScriptFundamentalsHomeworks/OperatorsAndExpressions)
+  * [Operators and Expressions](https://github.com/lorashopova/TelerikAcademyHomeworks2016/tree/master/JavaScriptFundamentalsHomeworks/OperatorsAndExpressions)
+  * 
