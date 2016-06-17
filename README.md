@@ -16,3 +16,4 @@
 [JavaScript Fundamentals](https://github.com/lorashopova/TelerikAcademyHomeworks2016/tree/master/JavaScriptFundamentalsHomeworks)
   * [Operators and Expressions](https://github.com/lorashopova/TelerikAcademyHomeworks2016/tree/master/JavaScriptFundamentalsHomeworks/OperatorsAndExpressions)
   * 
+  * [Loops](https://github.com/lorashopova/TelerikAcademyHomeworks2016/tree/master/JavaScriptFundamentalsHomeworks/Loops)
