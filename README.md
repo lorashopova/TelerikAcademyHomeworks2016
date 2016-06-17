@@ -13,7 +13,7 @@
   * [CSS Layout](https://github.com/lorashopova/TelerikAcademyHomeworks2016/tree/master/CSSHomeworks/CSSLayoutHomework)
   
 
-[JavaScript Fundamentals](https://github.com/lorashopova/TelerikAcademyHomeworks2016/tree/master/JavaScriptFundamentalsHomeworks)
+[JavaScript Fundamentals Homeworks](https://github.com/lorashopova/TelerikAcademyHomeworks2016/tree/master/JavaScriptFundamentalsHomeworks)
   * [Operators and Expressions](https://github.com/lorashopova/TelerikAcademyHomeworks2016/tree/master/JavaScriptFundamentalsHomeworks/OperatorsAndExpressions)
   * 
   * [Loops](https://github.com/lorashopova/TelerikAcademyHomeworks2016/tree/master/JavaScriptFundamentalsHomeworks/Loops)
