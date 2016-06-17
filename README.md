@@ -15,5 +15,5 @@
 
 [JavaScript Fundamentals Homeworks](https://github.com/lorashopova/TelerikAcademyHomeworks2016/tree/master/JavaScriptFundamentalsHomeworks)
   * [Operators and Expressions](https://github.com/lorashopova/TelerikAcademyHomeworks2016/tree/master/JavaScriptFundamentalsHomeworks/OperatorsAndExpressions)
-  * 
+  * [Conditional Statements](https://github.com/lorashopova/TelerikAcademyHomeworks2016/tree/master/JavaScriptFundamentalsHomeworks/Conditional%20Statements)
   * [Loops](https://github.com/lorashopova/TelerikAcademyHomeworks2016/tree/master/JavaScriptFundamentalsHomeworks/Loops)
