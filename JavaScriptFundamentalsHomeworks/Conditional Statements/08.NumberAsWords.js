@@ -89,7 +89,7 @@ function solve(args) {
                 break;
             case 3: decimals = 'thirty ';
                 break;
-            case 4: decimals = 'fourty ';
+            case 4: decimals = 'forty ';
                 break;
             case 5: decimals = 'fifty ';
                 break;
