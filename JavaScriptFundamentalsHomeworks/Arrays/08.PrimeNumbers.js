@@ -18,12 +18,3 @@ function solve(args) {
 console.log(solve(['13']));
 console.log(solve(['126']));
 console.log(solve(['26']));
-
-
-
-/*function solve(args) {
-    var name = args[0];
-    return 'Hello, ' + name + '!';
-}
-
-console.log(solve(['Peter']));*/
