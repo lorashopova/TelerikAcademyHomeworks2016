@@ -18,3 +18,4 @@
   * [Conditional Statements](https://github.com/lorashopova/TelerikAcademyHomeworks2016/tree/master/JavaScriptFundamentalsHomeworks/Conditional%20Statements)
   * [Loops](https://github.com/lorashopova/TelerikAcademyHomeworks2016/tree/master/JavaScriptFundamentalsHomeworks/Loops)
   * [Arrays](https://github.com/lorashopova/TelerikAcademyHomeworks2016/tree/master/JavaScriptFundamentalsHomeworks/Arrays)
+  * [Functions](https://github.com/lorashopova/TelerikAcademyHomeworks2016/tree/master/JavaScriptFundamentalsHomeworks/Functions)
