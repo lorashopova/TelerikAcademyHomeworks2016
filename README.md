@@ -19,3 +19,4 @@
   * [Loops](https://github.com/lorashopova/TelerikAcademyHomeworks2016/tree/master/JavaScriptFundamentalsHomeworks/Loops)
   * [Arrays](https://github.com/lorashopova/TelerikAcademyHomeworks2016/tree/master/JavaScriptFundamentalsHomeworks/Arrays)
   * [Functions](https://github.com/lorashopova/TelerikAcademyHomeworks2016/tree/master/JavaScriptFundamentalsHomeworks/Functions)
+  * [Using Objects](https://github.com/lorashopova/TelerikAcademyHomeworks2016/tree/master/JavaScriptFundamentalsHomeworks/Using%20Objects)
