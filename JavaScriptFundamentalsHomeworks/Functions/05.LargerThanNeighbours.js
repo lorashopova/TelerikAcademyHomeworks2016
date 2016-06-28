@@ -1,7 +1,5 @@
 function solve(args) {
-    var array = args[0].split(/[\s\\n]+/g);
-    array = array.map(Number);
-    array.shift();
+    var array = args[1].split(' ').map(Number);
     var counter = 0;
 
     for (var i = 1; i < array.length - 1; i += 1) {
@@ -13,4 +11,4 @@ function solve(args) {
     return counter;
 }
 
-console.log(solve(['6\n-26 -25 -28 31 2 27 2 100 1']));
+console.log(solve(['6', '-26 -25 -28 31 2 27 2 100 1']));
