@@ -14,7 +14,7 @@ function solve(args) {
 
 
     /*
-    //work but only zero tests pass
+    //works but only zero tests pass
     var regex = /(\w+):\/\/(\w+\.\w+)(.*)/g;
     var result = args[0].replace(regex, 'protocol: $1' + '\n' + 'server: $2' + '\n' + 'resource: $3');
     console.log(result);
