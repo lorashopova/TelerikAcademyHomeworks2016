@@ -23,5 +23,5 @@
   * [Strings](https://github.com/lorashopova/TelerikAcademyHomeworks2016/tree/master/JavaScriptFundamentalsHomeworks/Strings)
   * [Regular Expressions](https://github.com/lorashopova/TelerikAcademyHomeworks2016/tree/master/JavaScriptFundamentalsHomeworks/Regular%20Expressions)
   
-  [JavaScript OOP Homeworks]()
+  [JavaScript OOP Homeworks](https://github.com/lorashopova/TelerikAcademyHomeworks2016/tree/master/JavaScriptOOPHomeworks)
   * [Functions and Function Expressions]()
