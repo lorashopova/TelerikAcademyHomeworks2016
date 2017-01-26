@@ -22,3 +22,6 @@
   * [Using Objects](https://github.com/lorashopova/TelerikAcademyHomeworks2016/tree/master/JavaScriptFundamentalsHomeworks/Using%20Objects)
   * [Strings](https://github.com/lorashopova/TelerikAcademyHomeworks2016/tree/master/JavaScriptFundamentalsHomeworks/Strings)
   * [Regular Expressions](https://github.com/lorashopova/TelerikAcademyHomeworks2016/tree/master/JavaScriptFundamentalsHomeworks/Regular%20Expressions)
+  
+  [JavaScript OOP Homeworks]()
+  * [Functions and Function Expressions]()
