@@ -29,3 +29,4 @@
   * [Closures and Scope](https://github.com/lorashopova/TelerikAcademyHomeworks2016/tree/master/JavaScriptOOPHomeworks/Closures%20and%20Scope)
   * [Modules and Patterns](https://github.com/lorashopova/TelerikAcademyHomeworks2016/tree/master/JavaScriptOOPHomeworks/Modules%20and%20Patterns)
   * [Carts and Products Workshop](https://github.com/lorashopova/TelerikAcademyHomeworks2016/tree/master/JavaScriptOOPHomeworks/Carts%20and%20Products%20Workshop)
+  * [Class Methods and Properties](https://github.com/lorashopova/TelerikAcademyHomeworks2016/tree/master/JavaScriptOOPHomeworks/Class%20Methods%20and%20Properties)
