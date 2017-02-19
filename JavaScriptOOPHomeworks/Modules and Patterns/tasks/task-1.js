@@ -140,14 +140,11 @@ function solve() {
       if (!Array.isArray(results)) {
         throw Error('Given string, not array as parameter');
       }
-      for (let r = 0; r < results.length; r += 1) {
-        validateScore(r.score);
-        validateID(r.id, 1, this.students.length);
-      }
-
       let firstStudent = results[0].StudentID;
-      for (let i = 1; i < results.length; i += 1) {
-        if (firstStudent === results[i].StudentID) {
+      for (let r = 0; r < results.length; r += 1) {
+        validateScore(results[r].score);
+        validateID(results[r].id, 1, this.students.length);
+        if (firstStudent === results[r].StudentID) {
           throw Error('Same student twice');
         }
       }
