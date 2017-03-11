@@ -30,3 +30,8 @@
   * [Modules and Patterns](https://github.com/lorashopova/TelerikAcademyHomeworks2016/tree/master/JavaScriptOOPHomeworks/Modules%20and%20Patterns)
   * [Carts and Products Workshop](https://github.com/lorashopova/TelerikAcademyHomeworks2016/tree/master/JavaScriptOOPHomeworks/Carts%20and%20Products%20Workshop)
   * [Class Methods and Properties](https://github.com/lorashopova/TelerikAcademyHomeworks2016/tree/master/JavaScriptOOPHomeworks/Class%20Methods%20and%20Properties)
+  
+  
+ ### [JavaScript UI & DOM Homeworks](https://github.com/lorashopova/TelerikAcademyHomeworks2016/tree/master/JavaScriptUI%26DOMHomeworks)
+   * [DOM Operations](https://github.com/lorashopova/TelerikAcademyHomeworks2016/tree/master/JavaScriptUI%26DOMHomeworks/DOM%20Operations)
+   * [Event Model](https://github.com/lorashopova/TelerikAcademyHomeworks2016/tree/master/JavaScriptUI%26DOMHomeworks/Event%20Model)
