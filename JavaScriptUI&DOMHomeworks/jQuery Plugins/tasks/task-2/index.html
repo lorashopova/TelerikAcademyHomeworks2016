@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Colorpicker</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <div id="root">
+        <img src="imgs/icon.jpg" alt="colors">
+        <div id="color-picker-container">
+            <canvas id="picker-image" height="230" width="230"></canvas>
+        </div>
+    </div>
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/core.js"></script>-->
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+        crossorigin="anonymous"></script>
+    <script src="picker.js"></script>
+    <script>
+        $('#root').colorpicker();
+    </script>
+</body>
+
+</html>
