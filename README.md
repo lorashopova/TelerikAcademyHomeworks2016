@@ -35,3 +35,5 @@
 ### [JavaScript UI & DOM Homeworks](https://github.com/lorashopova/TelerikAcademyHomeworks2016/tree/master/JavaScriptUI%26DOMHomeworks)
   * [DOM Operations](https://github.com/lorashopova/TelerikAcademyHomeworks2016/tree/master/JavaScriptUI%26DOMHomeworks/DOM%20Operations)
   * [Event Model](https://github.com/lorashopova/TelerikAcademyHomeworks2016/tree/master/JavaScriptUI%26DOMHomeworks/Event%20Model)
+  * [jQuery Overview](https://github.com/lorashopova/TelerikAcademyHomeworks2016/tree/master/JavaScriptUI%26DOMHomeworks/jQuery%20Overview)
+  * [jQuery Plugins](https://github.com/lorashopova/TelerikAcademyHomeworks2016/tree/master/JavaScriptUI%26DOMHomeworks/jQuery%20Plugins)
