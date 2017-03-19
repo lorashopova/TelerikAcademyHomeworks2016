@@ -37,3 +37,4 @@
   * [Event Model](https://github.com/lorashopova/TelerikAcademyHomeworks2016/tree/master/JavaScriptUI%26DOMHomeworks/Event%20Model)
   * [jQuery Overview](https://github.com/lorashopova/TelerikAcademyHomeworks2016/tree/master/JavaScriptUI%26DOMHomeworks/jQuery%20Overview)
   * [jQuery Plugins](https://github.com/lorashopova/TelerikAcademyHomeworks2016/tree/master/JavaScriptUI%26DOMHomeworks/jQuery%20Plugins)
+  * [Handlebars](https://github.com/lorashopova/TelerikAcademyHomeworks2016/tree/master/JavaScriptUI%26DOMHomeworks/Handlebars)
