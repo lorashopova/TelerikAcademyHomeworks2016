@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Task1</title>
+    <script src="../node_modules/handlebars/dist/handlebars.min.js"></script>
+    <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+    <style type="text/css">
+        table {
+            border-collapse: collapse;
+        }
+        
+        table,
+        th,
+        td {
+            border: 1px solid black;
+        }
+        
+        th,
+        td {
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="wrapper"></div>
+    <script id="table-template" type="text/x-handlebars-template">
+        <table class="items-table">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    {{#each headers}}
+                    <th>{{this}}</th>
+                    <!-- <th>{{headers.[0]}}</th>
+                    <th>{{headers.[1]}}</th>
+                    <th>{{headers.[2]}}</th> -->
+                    {{/each}}
+                </tr>
+            </thead>
+            <tbody>
+                {{# each items}}
+                <tr>
+                    <td>{{@index}}</td>
+                    <td>{{this.col1}}</td>
+                    <td>{{this.col2}}</td>
+                    <td>{{this.col3}}</td>
+                </tr>
+                {{/each}}
+            </tbody>
+        </table>
+    </script>
+    <script>
+        var html = document.getElementById('table-template').innerHTML;
+        var template = Handlebars.compile(html);
+        var data = {
+            headers: ['Vendor', 'Model', 'OS'],
+            items: [{
+                col1: 'Nokia',
+                col2: 'Lumia 920',
+                col3: 'Windows Phone'
+            }, {
+                col1: 'LG',
+                col2: 'Nexus 5',
+                col3: 'Android'
+            }, {
+                col1: 'Apple',
+                col2: 'iPhone 6',
+                col3: 'iOS'
+            }]
+        };
+        var result = template(data);
+        document.getElementById('wrapper').innerHTML = result;
+    </script>
+</body>
+
+</html>
