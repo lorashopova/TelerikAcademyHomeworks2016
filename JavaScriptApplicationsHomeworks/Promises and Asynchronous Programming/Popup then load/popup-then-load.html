@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Popup then load</title>
+    <link rel="stylesheet" href="./popup-then-load.css">
+</head>
+
+<body>
+    <div id="text">
+        Learn more about Popup
+    </div>
+    <div id="popup">
+        Loading...
+    </div>
+
+    <script src="./popup-then-load.js"></script>
+    <script>
+        window.onload = function () {
+            load();
+        }
+    </script>
+</body>
+
+</html>
