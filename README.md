@@ -38,3 +38,7 @@
   * [jQuery Overview](https://github.com/lorashopova/TelerikAcademyHomeworks2016/tree/master/JavaScriptUI%26DOMHomeworks/jQuery%20Overview)
   * [jQuery Plugins](https://github.com/lorashopova/TelerikAcademyHomeworks2016/tree/master/JavaScriptUI%26DOMHomeworks/jQuery%20Plugins)
   * [Handlebars](https://github.com/lorashopova/TelerikAcademyHomeworks2016/tree/master/JavaScriptUI%26DOMHomeworks/Handlebars)
+  
+ 
+### [JavaScript Applications Homework](https://github.com/lorashopova/TelerikAcademyHomeworks2016/tree/master/JavaScriptApplicationsHomeworks)
+  * [Promises and Asynchronous Programming](https://github.com/lorashopova/TelerikAcademyHomeworks2016/tree/master/JavaScriptApplicationsHomeworks/Promises%20and%20Asynchronous%20Programming)
