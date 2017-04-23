@@ -21,6 +21,4 @@ function load() {
     }
 
     promise.then(showPopup).then(redirect).catch(displayError);
-
-
 }
