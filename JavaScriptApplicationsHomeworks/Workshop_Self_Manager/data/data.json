@@ -1,0 +1,168 @@
+{
+  "users": [
+    {
+      "username": "Doncho",
+      "passHash": "4cb5ba2355368d4dfd14c9eee9a134791f7001cb",
+      "usernameLower": "doncho",
+      "authKey": "undefined+tusvd@Kh_@ixbA*Q$fvLmq(CJJmu*DN%E^i@OUr&eoAJn!*uak",
+      "id": "d69707b4-d06d-42ac-bc10-1dde5aaafcf7",
+      "events": [
+        {
+          "id": 449037,
+          "title": "Test",
+          "category": "Work",
+          "description": "",
+          "date": "2015-09-08T23:00:00.000Z",
+          "creatorId": "d69707b4-d06d-42ac-bc10-1dde5aaafcf7",
+          "users": [
+            "d69707b4-d06d-42ac-bc10-1dde5aaafcf7",
+            "d69707b4-d06d-42ac-bc10-1dde5aaafcf7"
+          ]
+        },
+        {
+          "id": 449037,
+          "title": "Test",
+          "category": "Work",
+          "description": "",
+          "date": "2015-09-08T23:00:00.000Z",
+          "creatorId": "d69707b4-d06d-42ac-bc10-1dde5aaafcf7",
+          "users": [
+            "d69707b4-d06d-42ac-bc10-1dde5aaafcf7",
+            "d69707b4-d06d-42ac-bc10-1dde5aaafcf7"
+          ]
+        },
+        {
+          "id": 792579,
+          "title": "Test",
+          "category": "Free time",
+          "description": "",
+          "date": "2015-09-17T23:00:00.000Z",
+          "creatorId": "d69707b4-d06d-42ac-bc10-1dde5aaafcf7",
+          "users": [
+            "d69707b4-d06d-42ac-bc10-1dde5aaafcf7"
+          ]
+        }
+      ],
+      "todos": [
+        {
+          "id": 27882,
+          "text": "qwe",
+          "state": true,
+          "category": "Home"
+        },
+        {
+          "id": 365117,
+          "text": "NEW TODO",
+          "state": false,
+          "category": "Home"
+        }
+      ]
+    },
+    {
+      "username": "Cuki",
+      "passHash": "6edbb5c948d25789eccdfb37b70ff7f728f49786",
+      "usernameLower": "cuki",
+      "authKey": "undefinedLcy$^v^zXyoxyXQ_BbAJIRYwi%KiGGlD^ry+-N@AIwpP%EhOAUK",
+      "id": "f2c8726a-773e-403c-ad76-37dad93c9a8c"
+    },
+    {
+      "username": "Cuki2",
+      "passHash": "dfacf7f490d8e38e7895caad02e3693236216f51",
+      "usernameLower": "cuki2",
+      "authKey": "undefinedTZvCUbyZH(!=m-+)$fcAjzD)NPiWfGt(r!MHSzrCPAb(nGfp%*!",
+      "id": "1987f231-b978-49de-a5eb-d3f57f1f6fa6"
+    },
+    {
+      "username": "Cuki3",
+      "passHash": "05e18f169bb85da8722deb800fa8e3898c809146",
+      "usernameLower": "cuki3",
+      "authKey": "undefined&a*=xajP_XX&NIPuGIJIgcTfFWlZ&#BdA*zD*@TUUvNc^TmOfw(",
+      "id": "22402c86-f18e-4689-9fc3-237205fad856"
+    },
+    {
+      "username": "zz",
+      "passHash": "zz",
+      "usernameLower": "zz",
+      "authKey": "undefinedu@B&r$=LhDT)dZn_wejfQEhgAzPpts%vcJPxvD&CPGEqRkwdWLG",
+      "id": "553e0f49-faa2-4639-a5f1-352931b3e467"
+    },
+    {
+      "username": "guest",
+      "passHash": "guest",
+      "usernameLower": "guest",
+      "authKey": "undefinedQF=drSgFpC_supeeixR&OsywTPjAzedSShYVyvA$Gz*ok(E+XpV",
+      "id": "43bc7583-15e2-497c-b9ab-77748884c288"
+    },
+    {
+      "username": "",
+      "passHash": "",
+      "usernameLower": "",
+      "authKey": "undefinedDM@w-MqB($iYW$gfHoX@r$uf_=rSODJIyx-z=G+SWSrjLgs+shE",
+      "id": "e12d79e7-1074-4d56-ba58-cf48c1587de3"
+    },
+    {
+      "username": "11",
+      "passHash": "11",
+      "usernameLower": "11",
+      "authKey": "undefinedCh=BsjIW$hPRA*=qq^ekfWoUkUWBOAg$E%Ylml!ezXsBPG)IMkg",
+      "id": "b38c4ee0-f40c-412e-9a27-eea986c9dce2",
+      "todos": [
+        {
+          "id": 829780,
+          "text": "Go to run",
+          "state": false,
+          "category": "sport"
+        },
+        {
+          "id": 901660,
+          "text": "",
+          "state": false,
+          "category": "uncategorized"
+        }
+      ],
+      "events": []
+    },
+    {
+      "username": "newUser",
+      "passHash": "newUser",
+      "usernameLower": "newuser",
+      "authKey": "undefinedXUz!*hBhmtug+CQ-y*zc^c%AS$VorkTgaPipiHWVmTQCgiVTDf!",
+      "id": "7316786a-6673-4bde-85d8-a9f05b7ac476",
+      "events": []
+    },
+    {
+      "username": "1234",
+      "passHash": "1234",
+      "usernameLower": "1234",
+      "authKey": "undefinedP@M-yj(AqsjhH!c%drG=PocOjo#$t*@ZV)rCLdomNgxY)NwGn&h",
+      "id": "c5443d16-6068-4cbc-9af4-2eb55e1cb60f",
+      "events": [],
+      "todos": [
+        {
+          "id": 238950,
+          "text": "",
+          "state": false,
+          "category": "uncategorized"
+        },
+        {
+          "id": 311458,
+          "text": "",
+          "state": false,
+          "category": "uncategorized"
+        },
+        {
+          "id": 560641,
+          "text": "",
+          "state": false,
+          "category": "uncategorized"
+        },
+        {
+          "id": 390983,
+          "text": "Go to the mall",
+          "state": false,
+          "category": "shopping"
+        }
+      ]
+    }
+  ]
+}
