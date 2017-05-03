@@ -9,9 +9,10 @@ import timepicker from 'timepicker';
 let eventsController = (function () {
   function all(context) {
     let events;
-    
+
     data.eventsGet()
       .then(function (resEvents) {
+       events = resEvents;
         return templates.get('events');
       })
       .then(function (template) {
@@ -30,15 +31,12 @@ let eventsController = (function () {
         $('#tb-event-time').timepicker();
 
         $('#btn-event-add').on('click', function () {
-          let user = $('#tb-event-users').val(),
-            users = (!!user.trim()) ? [user] : [];
-
           let event = {
             title: $('#tb-event-title').val(),
             category: $('#tb-event-category').val(),
             description: $('#tb-event-description').val(),
             date: $('#tb-event-date').val() + ' ' + $('#tb-event-time').val(),
-            users: users
+            user: $('#tb-event-users').val()
           };
 
           data.eventsAdd(event)
@@ -70,6 +68,6 @@ let eventsController = (function () {
     add: add
   };
 
-}());
+})();
 
 export { eventsController };

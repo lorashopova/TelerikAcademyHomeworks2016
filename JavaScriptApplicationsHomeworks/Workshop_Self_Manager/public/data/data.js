@@ -5,17 +5,19 @@ import { requester } from 'requester';
 const LOCAL_STORAGE_USERNAME_KEY = 'signed-in-user-username';
 const LOCAL_STORAGE_AUTHKEY_KEY = 'signed-in-user-auth-key';
 
-class Data {
+let data = (function () {
 
-    register(user) {
+    function register(user) {
         let reqUser = {
             username: user.username,
             passHash: user.password
         };
 
-        return requester.post('api/users', {
+        let options = {
             data: reqUser
-        })
+        };
+
+        return requester.post('api/users', options)
             .then(function (resp) {
                 let user = resp.result;
                 localStorage.setItem(LOCAL_STORAGE_USERNAME_KEY, user.username);
@@ -27,7 +29,7 @@ class Data {
     }
 
 
-    signIn(user) {
+    function signIn(user) {
         let reqUser = {
             username: user.username,
             passHash: user.password
@@ -46,7 +48,7 @@ class Data {
             });
     }
 
-    signOut() {
+    function signOut() {
         let promise = new Promise(function (resolve, reject) {
             localStorage.removeItem(LOCAL_STORAGE_USERNAME_KEY);
             localStorage.removeItem(LOCAL_STORAGE_AUTHKEY_KEY);
@@ -55,12 +57,12 @@ class Data {
         return promise;
     }
 
-   hasUser() {
+    function hasUser() {
         return !!localStorage.getItem(LOCAL_STORAGE_USERNAME_KEY) &&
             !!localStorage.getItem(LOCAL_STORAGE_AUTHKEY_KEY);
     }
 
-    usersGet() {
+    function usersGet() {
         return requester.get('api/users')
             .then(function (res) {
                 return res.result;
@@ -69,19 +71,19 @@ class Data {
 
 
 
-     todosGet() {
+    function todosGet() {
         let options = {
             headers: {
                 'x-auth-key': localStorage.getItem(LOCAL_STORAGE_AUTHKEY_KEY)
             }
         };
         return requester.get('api/todos', options)
-            .then(function (res) {
+            .then(function (res) {              
                 return res.result;
             });
     }
 
-    todosAdd(todo) {
+    function todosAdd(todo) {
         let options = {
             data: todo,
             headers: {
@@ -95,7 +97,7 @@ class Data {
             });
     }
 
-    todosUpdate(id, todo) {
+    function todosUpdate(id, todo) {
         let options = {
             data: todo,
             headers: {
@@ -108,7 +110,7 @@ class Data {
             });
     }
 
-    eventsGet() {
+    function eventsGet() {
         let options = {
             headers: {
                 'x-auth-key': localStorage.getItem(LOCAL_STORAGE_AUTHKEY_KEY)
@@ -120,7 +122,7 @@ class Data {
             });
     }
 
-     eventsAdd(event) {
+    function eventsAdd(event) {
         let options = {
             data: event,
             headers: {
@@ -134,7 +136,7 @@ class Data {
             });
     }
 
-     categoriesGet() {
+    function categoriesGet() {
         let options = {
             headers: {
                 'x-auth-key': localStorage.getItem(LOCAL_STORAGE_AUTHKEY_KEY)
@@ -143,13 +145,25 @@ class Data {
 
         return requester.get('api/categories', options)
             .then(function (res) {
-                console.log('THERE!');
                 return res.result;
             });
     }
-}
 
-let data = new Data();
+    return {
+        signIn,
+        signOut,
+        register,
+        hasUser,
+        usersGet,
+        todosGet,
+        todosAdd,
+        todosUpdate,
+        eventsGet,
+        eventsAdd,
+        categoriesGet
+    };
+
+})();
 
 export { data };
 

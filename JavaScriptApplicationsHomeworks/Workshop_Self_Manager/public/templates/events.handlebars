@@ -1,15 +1,26 @@
 <h2>Events</h2>
 <a href="#/events/add">Add new</a>
-{{#each this}}
-  <h3><a href="#/events?category={{category}}">{{category}}</a></h3>
-  {{#each items}}
-    <div class="event-box" data-id="{{id}}">
-      <h4>{{title}}
-        <small><a href="#" class="btn-cancel">X</a></small>
-      </h4>
-      <strong>{{timeRemaining}}</strong>, on
-      <span>{{date}}</span>
-      <p>{{description}}</p>
-    </div>
-  {{/each}}
-{{/each}}
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>#</th>
+      <th>Category</th>
+      <th>Title</th>
+      <th>Description</th>
+      <th>Date</th>  
+      <th>Remaining</th>                
+    </tr>
+  </thead>
+  <tbody>
+    {{#each this}}
+    <tr>
+      <th scope="row">{{@index}}</th>
+      <td><a href="#/events?category={{category}}">{{category}}</a></td>
+      <td>{{title}}</td>
+      <td>{{description}}</td>
+      <td>{{date}}</td> 
+      <td>{{timeRemaining}}</td>                 
+    </tr>
+    {{/each}}
+  </tbody>
+</table>

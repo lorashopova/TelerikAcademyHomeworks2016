@@ -1,7 +1,17 @@
 <h2>Users</h2>
-<ul>
-  {{#this}}
-    <li data-id="{{id}}" class="user-box">{{username}}
-    </li>
-  {{/this}}
-</ul>
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>#</th>
+      <th>Username</th>
+    </tr>
+  </thead>
+  <tbody>
+    {{#this}}
+    <tr>
+      <th scope="row">{{@index}}</th>
+      <td><div data-id="{{id}}" class="user-box"><strong>{{username}}</strong></div></td>
+    </tr>
+      {{/this}}
+  </tbody>
+</table>

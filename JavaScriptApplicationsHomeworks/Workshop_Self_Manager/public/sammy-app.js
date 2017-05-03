@@ -5,8 +5,6 @@ import { todosController } from 'todosController';
 import { eventsController } from 'eventsController';
 import { usersController } from 'usersController';
 
-//sessionStorage.clear();
-
 (function () {
     let sammyApp = Sammy('#content', function () {
 

@@ -24,6 +24,9 @@ body .container .event-box h4:hover .btn-cancel {
 body .container .user-box {
   width: 150px;
 }
+body .container .user-box:nth-of-type(even) {
+  background-color: #ccc;
+}
 body .container .navbar-custom {
   background-color: #229922;
   color: #ffffff;

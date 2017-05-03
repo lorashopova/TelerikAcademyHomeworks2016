@@ -1,17 +1,19 @@
 import 'jquery';
 import { templates } from 'templates';
 
-class HomeController {
+let homeController = (function() {
 
-    home(context) {
+    function home(context) {
         templates.get('home')
             .then(function (template) {
                 context.$element().html(template());
             });
     }
 
-}
+     return {
+    home: home
+  };
 
-let homeController = new HomeController();
+})();
 
 export { homeController };

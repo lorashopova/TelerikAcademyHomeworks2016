@@ -3,9 +3,9 @@ import { data } from 'data';
 import { templates } from 'templates';
 import toastr from 'toastr';
 
-class UsersController {
+let usersController = (function () {
 
-  all(context) {
+ function all(context) {
     let users;
     data.usersGet()
       .then(function (resUsers) {
@@ -17,7 +17,7 @@ class UsersController {
       });
   }
 
-  register(context) {
+  function register(context) {
     templates.get('register')
       .then(function (template) {
         context.$element().html(template());
@@ -41,8 +41,11 @@ class UsersController {
       });
   }
 
-}
+  return {
+    all: all,
+    register: register
+  };
 
-let usersController = new UsersController();
+})();
 
 export { usersController };

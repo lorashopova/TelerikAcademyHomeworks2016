@@ -3,12 +3,13 @@ import { data } from 'data';
 import { templates } from 'templates';
 import toastr from 'toastr';
 
-class TodosController {
+let todosController = (function() {
 
- all(context) {
+ function all(context) {
     let todos;
     data.todosGet()
       .then(function(resTodos) {
+        todos = resTodos;
         return templates.get('todos');
       })
       .then(function(template) {
@@ -20,7 +21,7 @@ class TodosController {
             });
   }
 
-  add(context) {
+  function add(context) {
     templates.get('todo-add')
       .then(function(template) {
         context.$element()
@@ -43,8 +44,11 @@ class TodosController {
       });
   }
 
-}
+  return {
+    all: all,
+    add: add
+  };
 
-let todosController = new TodosController();
+})();
 
 export{todosController};
